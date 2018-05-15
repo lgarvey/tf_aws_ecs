@@ -144,3 +144,8 @@ variable "user_data" {
 variable "vpc_id" {
   description = "The AWS VPC ID which you want to deploy your instances"
 }
+
+variable "extra_volume_size" {
+  description = "Size in GB of the additional EBS volume"
+}
+
